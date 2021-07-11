@@ -1,10 +1,18 @@
+import React from "react";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import GlobalStyle from "./styles/GlobalStyle";
 
-function App() {
+import Routes from "./routes";
+
+const App = () => {
   return (
     <>
-      <h1>Hollo world!</h1>
+      <Routes />
+      <ToastContainer />
+      <GlobalStyle />
     </>
   );
-}
+};
 
 export default App;
