@@ -28,7 +28,7 @@ const Filter = () => {
               <label htmlFor="status"> Ativos </label>
             </div>
           </div>
-          <ButtonStandard>
+          <ButtonStandard className="primary">
             Pesquisar
             {" "}
             <SearchIcon className="icon" />

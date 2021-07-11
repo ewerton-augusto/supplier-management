@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import { primary } from "../../../UI/colors";
 
 export const ButtonStandard = styled.button`
+  min-width: 150px;
   margin: 1rem 0;
   color: #fff;
-  background-color: ${primary};
+  background-color: #ccc;
   border-radius: 6px;
   border: 0;
   padding: 0.5rem;
@@ -28,8 +28,7 @@ export const ButtonStandard = styled.button`
     }
   }
 
-  @media (max-width: 320px){
+  @media (max-width: 320px) {
     width: 100%;
   }
-
 `;

@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { primary } from "../UI/colors";
 
 export default createGlobalStyle`
   /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -78,6 +79,10 @@ export default createGlobalStyle`
     color: #fff;
   }
 
+  .primary{
+    background-color: ${primary};
+  }
+
   .success{
     background-color: #5cb85c;
   }
@@ -98,6 +103,12 @@ export default createGlobalStyle`
   }
   .text-end{
     text-align: right;
+  }
+
+  .modal__actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
 `;
