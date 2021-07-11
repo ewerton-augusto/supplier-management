@@ -22,7 +22,7 @@ const Supplier = () => {
     api
       .get("")
       .then((response) => {
-        console.log(response.data.suppliers);
+        //console.log(response.data.suppliers);
         response.status === 200
           ? setSuppliers(response.data.suppliers)
           : toast.error("Falha ao listar fornecedores.");
